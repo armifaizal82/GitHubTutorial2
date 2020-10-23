@@ -61,5 +61,6 @@ np.corrcoef(pred_train, y_train) #this is just because some model's count the in
 #lastWeights = model.layers[lastLayer].get_weights()
 print(model.get_weights())
 
+#accuracy calculation
 accuracy=np.corrcoef(pred_train, y_train) 
 print(accuracy)
